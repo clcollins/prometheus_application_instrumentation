@@ -1,0 +1,13 @@
+# /etc/systemd/system/sensor-metrics.service
+[Unit]
+Description=DHT22 Sensor Metrics Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=python3 /opt/sensor-metrics/sensor-metrics.py
+
+[Install]
+WantedBy=multi-user.target
