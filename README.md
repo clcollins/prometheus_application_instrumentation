@@ -333,11 +333,11 @@ Click on the "graph" tab, and search for `dht22_temperature{scale=~"fahrenheit"}
 
 Ok, so, two things:
 
-1. Time-series data is underwhelming at first, because you don't have much data yet. It gets better over time.
+1. Time-series data is underwhelming at first, because you don't have much data yet.
 2. Ambient temperature data takes a somewhat longer period to display anything interesting, because it doesn't change much.
 
 So, give it time.
-Eventually it'll look much more interesting, and just get better with time:
+Eventually it'll look much more interesting, and just get better:
 
 | ![A Prometheus graph showing declining temperature data points](img/dht22_average_temp_6h.png) |
 | :-: |
